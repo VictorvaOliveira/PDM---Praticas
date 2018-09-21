@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:hint="@string/nome_am"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <EditText
+        android:id="@+id/edit_grade"
+        android:hint="@string/grade_am"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:text="@string/inserir_am"
+        android:onClick="buttonInsertClick"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <Button
+        android:id="@+id/button_query"
+        android:text="@string/consultar_am"
+        android:layout_height="48dp"
+        android:onClick="buttonQueryClick"
+        tools:layout_editor_absoluteY="174dp"
+        tools:layout_editor_absoluteX="214dp"
+        android:layout_width="115dp" />
+    <Button
+        android:id="@+id/button_update"
+        android:text="@string/update_am"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteY="232dp"
+        tools:layout_editor_absoluteX="74dp"
+        android:layout_width="113dp" />
+    <Button
+        android:id="@+id/button_delete"
+        android:text="@string/delete_am"
+        android:onClick="buttonDeleteClick"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:layout_editor_absoluteX="214dp"
+        android:layout_width="114dp" />
+
+</LinearLayout>

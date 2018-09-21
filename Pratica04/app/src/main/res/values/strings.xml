@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pratica04</string>
+    <string name="nome_am">Nome</string>
+    <string name="grade_am">Nota</string>
+    <string name="inserir_am">INSERIR</string>
+    <string name="consultar_am">CONSULTAR</string>
+    <string name="update_am">ATUALIZAR</string>
+    <string name="delete_am">APAGAR</string>
+</resources>
